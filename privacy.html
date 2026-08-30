@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Inferra</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #1a1a1a; background: #fff; max-width: 760px; margin: 0 auto; padding: 2rem 1.5rem; }
+    h1 { font-size: 1.8rem; margin-bottom: 0.25rem; }
+    h2 { font-size: 1.15rem; margin-top: 2rem; }
+    .meta { color: #666; font-size: 0.9rem; margin-bottom: 2rem; }
+    p, li { color: #333; }
+    code { background: #f4f4f4; padding: 0.1rem 0.3rem; border-radius: 3px; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Inferra · Last updated: August 30, 2026</p>
+
+  <p>Inferra ("we", "us") is based in Utah, United States, and operates an inference service that processes prompts and generates completions for our customers through the OpenRouter platform. This policy describes what we do with data that passes through our service.</p>
+
+  <h2>1. Prompts and completions</h2>
+  <p>We do <strong>not</strong> log, store, or retain prompts or completions. Request content is processed in memory for the duration of the request and discarded immediately after the response is streamed to the caller. We do not train models on customer data.</p>
+
+  <h2>2. Metadata we retain</h2>
+  <p>For billing, monitoring, and abuse prevention we retain limited request metadata: timestamps, the model used, token counts, HTTP status codes, and approximate request size. This metadata does not include prompt or completion content.</p>
+
+  <h2>3. Zero data retention</h2>
+  <p>Our service operates with a zero data retention posture: no prompt logging, no completion logging, and no training on customer data. This applies to all models and all serving regions.</p>
+
+  <h2>4. Infrastructure and third parties</h2>
+  <p>Inference runs on third-party GPU cloud infrastructure that we lease. Those providers process network traffic in transit and may retain infrastructure-level logs (for example, network or access logs) subject to their own policies. We use a TLS reverse proxy, so request content is encrypted in transit.</p>
+
+  <h2>5. Cookies and website analytics</h2>
+  <p>Our legal and informational pages do not use tracking cookies or third-party analytics. The inference API itself does not set cookies.</p>
+
+  <h2>6. Contact</h2>
+  <p>For privacy questions, contact us at <a href="mailto:privacy@inferra.host">privacy@inferra.host</a>.</p>
+</body>
+</html>
